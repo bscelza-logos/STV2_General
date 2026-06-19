@@ -1,0 +1,39 @@
+{
+    "name": "smartteam-general",
+    "version": "0.1.0",
+    "description": "SmartTEAM general extension for micro:bit (development)",
+    "card": {
+        "name": "SmartTEAM General",
+        "description": "Todos los bloques SmartTEAM para desarrollo"
+    },
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "block/lcd1602.ts",
+        "block/sensor.ts",
+        "block/ultrasonic.ts",
+        "block/veml6040.ts",
+        "block/joystick.ts",
+        "block/line.ts",
+        "block/cantidad.ts",
+        "block/pins.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.22",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
